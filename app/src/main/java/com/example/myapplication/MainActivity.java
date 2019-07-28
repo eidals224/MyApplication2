@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 editText.setText("");
                 imm.hideSoftInputFromWindow(editText.getWindowToken(),0);
             }
+
         });
         builder.setNegativeButton("취소",null);
         AlertDialog dialog = builder.create();
